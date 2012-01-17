@@ -10,15 +10,14 @@ For example, if your program is called with:
 
 The correct display is:
 
-`
- --        --   --        --
-|  |    |    |    | |  | |
-|  |    |    |    | |  | |
-           --   --   --   --
-|  |    | |       |    |    |
-|  |    | |       |    |    |
- --        --   --        --
-`
+     --        --   --        --
+    |  |    |    |    | |  | |
+    |  |    |    |    | |  | |
+               --   --   --   --
+    |  |    | |       |    |    |
+    |  |    | |       |    |    |
+     --        --   --        --
+
 
 And for:
 
@@ -26,12 +25,10 @@ And for:
 
 Your program should print:
 
-`
- -   -   -   -
-|     | | | | |
- -       -   -
-| |   | | |   |
- -       -   -
-`
+     -   -   -   -
+    |     | | | | |
+     -       -   -
+    | |   | | |   |
+     -       -   -
 
 Note the single column of space between digits in both examples. For other values of -s, simply lengthen the - and | bars.
