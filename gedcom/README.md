@@ -61,4 +61,4 @@ The challenge, then, is to create a parser that takes a GEDCOM file as input and
 
 ## Sample Input
 
-There is a large ["GECOM file"](http://www.rubyquiz.com/royal.ged) online containing the lineage of various European royalty. This particular ﬁle makes generous use of whitespace to increase readability.
+There is a large [GECOM file](http://www.rubyquiz.com/royal.ged) online containing the lineage of various European royalty. This particular ﬁle makes generous use of whitespace to increase readability.
