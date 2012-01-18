@@ -10,16 +10,18 @@ The purpose of this quiz is to develop a simple parser than can convert a GEDCOM
 
 The GEDCOM file format is very straightforward. Each line represents a node in a tree. It looks something like this:
 
-`  0 @I1@ INDI
-`  1 NAME Jamis Gordon /Buck/
-`  2 SURN Buck
-`  2 GIVN Jamis Gordon
-`  1 SEX M
-`  ...
+```
+  0 @I1@ INDI
+  1 NAME Jamis Gordon /Buck/
+  2 SURN Buck
+  2 GIVN Jamis Gordon
+  1 SEX M
+  ...
+```
 
 In general, each line is formatted this:
 
-  LEVEL TAG-OR-ID [DATA]
+`LEVEL TAG-OR-ID [DATA]
 
 The LEVEL is an integer, representing the current depth in the tree. If subsequent lines have greater levels than the current node, they are children of the current node.
 
