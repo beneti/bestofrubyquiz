@@ -21,7 +21,7 @@ The GEDCOM file format is very straightforward. Each line represents a node in a
 
 In general, each line is formatted this:
 
-` LEVEL TAG-OR-ID [DATA]
+`LEVEL TAG-OR-ID [DATA]`
 
 The LEVEL is an integer, representing the current depth in the tree. If subsequent lines have greater levels than the current node, they are children of the current node.
 
