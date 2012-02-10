@@ -10,7 +10,7 @@ describe LCD do
     lines = lcd.exec
 
     lines[0].should == '    '
-    lines[1].should == '  | '
+    lines[1].should == '    '
     lines[2].should == '    '
     lines[3].should == '  | '
     lines[4].should == '    '
